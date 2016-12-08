@@ -1,6 +1,7 @@
 # CalendarView
 #一个自带农历和节假日的开源日历库
-这是一个自带节假日和滑动的日历控件，欢迎各位拍砖##效果图<br>
+这是一个自带节假日和滑动的日历控件，欢迎各位拍砖
+##效果图<br>
 ![](https://github.com/nanchen2251/CalendarView/blob/master/GIF.gif)
 
 ####⊙开源不易，希望给个star或者fork奖励
