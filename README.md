@@ -15,30 +15,30 @@
 ```
   或者<br>
   ```java
-  <dependency\><br>
-  <groupId>com.nanchen.calendarview\</groupId><br>
-  <artifactId>calendarview\</artifactId><br>
-  <version>1.0.7\</version><br>
-  <type>pom\</type><br>
-</dependency><br>
+  <dependency\>
+  <groupId>com.nanchen.calendarview</groupId>
+  <artifactId>calendarview</artifactId>
+  <version>1.0.7</version>
+  <type>pom</type>
+</dependency>
 ```
 ####2、在xml文件里面使用<br>
 ```java
-  <com.nanchen.calendarview.MyCalendarView<br>
-        android:layout_width="match_parent"<br>
-        android:layout_height="wrap_content"<br>
-        android:id="@+id/calendarView"/><br>
+  <com.nanchen.calendarview.MyCalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"/>
 ```
 ####3、在Activity里面使用<br>
 ```java
-  MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);<br>
-  calendarView.setClickDataListener(new ClickDataListener() {<br>
-       @Override<br>
-       public void clickData(int year, int month, int day) {<br>
-           date = String.format(Locale.CHINA, "%04d-%02d-%02d", year, month, day);<br>
-           Toast.showToast(MainActivity.this.getApplicationContext(),date,Toast.LENGTH_SHORT).show();<br>
-           }<br>
-       });<br>
+  MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);
+  calendarView.setClickDataListener(new ClickDataListener() {
+       @Override
+       public void clickData(int year, int month, int day) {
+           date = String.format(Locale.CHINA, "%04d-%02d-%02d", year, month, day);
+           Toast.showToast(MainActivity.this.getApplicationContext(),date,Toast.LENGTH_SHORT).show();
+           }
+       });
 ```
 ##关于作者
     南尘<br>
