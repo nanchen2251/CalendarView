@@ -3,12 +3,6 @@ package com.nanchen.calendarviewdemo;
 import android.content.Context;
 import android.widget.Toast;
 
-/**
- * @author nanchen
- * @fileName CalendarViewDemo
- * @packageName com.nanchen.calendarviewdemo
- * @date 2016/12/08  11:06
- */
 
 public class ToastUtil {
     private static Toast mToast;

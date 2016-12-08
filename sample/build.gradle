@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
@@ -28,3 +29,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':calendarview')
 }
+

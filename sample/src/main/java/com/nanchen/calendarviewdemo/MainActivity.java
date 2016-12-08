@@ -30,13 +30,9 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
         Window window = dialog.getWindow();
 
-        // 设置布局
         window.setContentView(R.layout.layout_calendar_dialog);
-        // 设置宽高
         window.setLayout(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-        // 设置弹出的动画效果
         window.setWindowAnimations(R.style.AnimBottom);
-        //设置显示位置
         window.setGravity(Gravity.BOTTOM);
 
         MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);
