@@ -15,16 +15,16 @@
 ```
   或者<br>
   ```java
-  \<dependency\><br>
-  \<groupId>com.nanchen.calendarview\</groupId><br>
-  \<artifactId>calendarview\</artifactId><br>
-  \<version>1.0.7\</version><br>
-  \<type>pom\</type><br>
-\</dependency><br>
+  <dependency\><br>
+  <groupId>com.nanchen.calendarview\</groupId><br>
+  <artifactId>calendarview\</artifactId><br>
+  <version>1.0.7\</version><br>
+  <type>pom\</type><br>
+</dependency><br>
 ```
 ####2、在xml文件里面使用<br>
 ```java
-  \<com.nanchen.calendarview.MyCalendarView<br>
+  <com.nanchen.calendarview.MyCalendarView<br>
         android:layout_width="match_parent"<br>
         android:layout_height="wrap_content"<br>
         android:id="@+id/calendarView"/><br>
