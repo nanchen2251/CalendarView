@@ -9,7 +9,7 @@
   2、支持点击效果<br>
   3、支持农历和周末的颜色显示<br>
 ##使用方法<br>
-  #####1、添加依赖<br>
+  <br>####1、添加依赖<br>
   compile 'com.nanchen.calendarview:calendarview:1.0.7'<br>
   或者<br>
   \<dependency\><br>
@@ -18,12 +18,12 @@
   \<version>1.0.7\</version><br>
   \<type>pom\</type><br>
 \</dependency><br>
-  #####2、在xml文件里面使用<br>
+  <br>####2、在xml文件里面使用<br>
   \<com.nanchen.calendarview.MyCalendarView<br>
         android:layout_width="match_parent"<br>
         android:layout_height="wrap_content"<br>
         android:id="@+id/calendarView"/><br>
-  #####3、在Activity里面使用<br>
+  <br>####3、在Activity里面使用<br>
   MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);<br>
   calendarView.setClickDataListener(new ClickDataListener() {<br>
        @Override<br>
