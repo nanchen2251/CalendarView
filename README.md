@@ -10,21 +10,28 @@
   3、支持农历和周末的颜色显示<br>
 ##使用方法
 ####1、添加依赖<br>
+```java
   compile 'com.nanchen.calendarview:calendarview:1.0.7'<br>
+```
   或者<br>
+  ```java
   \<dependency\><br>
   \<groupId>com.nanchen.calendarview\</groupId><br>
   \<artifactId>calendarview\</artifactId><br>
   \<version>1.0.7\</version><br>
   \<type>pom\</type><br>
 \</dependency><br>
+```
 ####2、在xml文件里面使用<br>
+```java
   \<com.nanchen.calendarview.MyCalendarView<br>
         android:layout_width="match_parent"<br>
         android:layout_height="wrap_content"<br>
         android:id="@+id/calendarView"/><br>
+```
 ####3、在Activity里面使用<br>
-  MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);<br>
+```java
+  MyCalendarView calendarView = (MyCalendarView) window.findViewById(R.id.calendarView);<br>
   calendarView.setClickDataListener(new ClickDataListener() {<br>
        @Override<br>
        public void clickData(int year, int month, int day) {<br>
@@ -32,6 +39,7 @@
            Toast.showToast(MainActivity.this.getApplicationContext(),date,Toast.LENGTH_SHORT).show();<br>
            }<br>
        });<br>
+```
 ##关于作者
     南尘<br>
     四川成都<br>
