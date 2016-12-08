@@ -9,7 +9,7 @@
   2、支持点击效果<br>
   3、支持农历和周末的颜色显示<br>
 ##使用方法
-  ####1、添加依赖<br>
+####1、添加依赖<br>
   compile 'com.nanchen.calendarview:calendarview:1.0.7'<br>
   或者<br>
   \<dependency\><br>
