@@ -11,7 +11,7 @@
 ##使用方法
 ####1、添加依赖<br>
 ```java
-  compile 'com.nanchen.calendarview:calendarview:1.0.7'<br>
+  compile 'com.nanchen.calendarview:calendarview:1.0.7'
 ```
   或者<br>
   ```java
