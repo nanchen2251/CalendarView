@@ -36,7 +36,7 @@ allprojects {
 #####Step 2. Add the dependency
 ```java
 dependencies {
-	        compile 'com.github.nanchen2251:calendarview:1.0.7'
+	        compile 'com.github.nanchen2251:CalendarView:1.0.7'
 	}
 ```
 ####2、在xml文件里面使用<br>
